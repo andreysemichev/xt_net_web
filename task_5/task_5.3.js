@@ -68,11 +68,6 @@ class Servise {
           this.items[i].value[prop] =
             obj[prop] === undefined ? this.items[i].value[prop] : obj[prop];
         }
-
-        console.log(this.items[i].value);
-
-        // this.items[i].value = obj;
-        // result = this.items[i];
         break;
       }
     }
