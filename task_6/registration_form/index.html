@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Registration Form</title>
+</head>
+<body>
+  <div class="wrapper">
+    <form class="sign-up" method="POST" action="#">
+      <h1 class="sign-up__title">Регистрация</h1>
+      <label class="sign-up__email">
+        <div class="sign-up__text">E-mail</div>
+        <input class="sign-up__email-input sign-up__input" type="email" name="email">
+      </label>
+      <label class="sign-up__password">
+        <div class="sign-up__text">Пароль</div>
+        <input class="sign-up__password-input sign-up__input" type="password" name="password">
+      </label>
+      <label class="sign-up__password-confirm">
+        <div class="sign-up__text">Ещё раз</div>
+        <input class="sign-up__password-input sign-up__input" type="password" name="password-confirm">
+      </label>
+      <button class="sign-up__submit" type="submit">Отправить</button>
+    </form>
+  </div>
+</body>
+</html>

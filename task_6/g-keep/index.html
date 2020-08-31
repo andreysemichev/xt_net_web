@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>G-keep</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="search">
+      <input class="search-input" type="text" name="search" placeholder="Поиск" id="search-input">
+    </div>
+    <div class="note">
+      <div class="note__init">Заметки отсутствуют</div>
+      <!-- <div class="note__item">
+        <div class="note__text"></div>
+        <img src="delete.svg" alt="delete" class="note__delete">
+      </div> -->
+    </div>
+  </div>
+  <div class="modal">
+    <div class="modal__content">
+      <div class="close">
+        <img class="close-img" src="close.svg" alt="close" id="close">
+      </div>
+      <textarea class="modal__body" name="modal__body" id="modal__body" placeholder="Напишите здесь что-нибудь важное..."></textarea>
+      <button class="modal__footer" id="save">Сохранить</button>
+    </div>
+  </div>
+  <button class="add" id="add">
+    <img class="add__img" src="add.svg" alt="add">
+  </button>
+  <script src="task_5.3.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>

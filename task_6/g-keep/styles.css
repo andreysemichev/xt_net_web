@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #221e1f;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #221e1f;
+  background: #f2f3f4;
+  position: relative;
+}
+
+pre {
+  white-space: pre-wrap; 
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  width: 100%;
+  overflow: auto;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.search {
+  padding: 20px 10px;
+}
+
+.search-input {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgba(211, 211, 211, 0.5);
+}
+
+.note {
+  border-top: 2px solid rgba(211, 211, 211, 0.5);
+  padding: 0 10px;
+}
+
+.note__init {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.note__item {
+  max-width: 600px;
+  width: 100%;
+  margin: 30px auto;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.note__delete {
+  display: block;
+  width: 20px;
+  margin-top: 10px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.add {
+  position: absolute;
+  border: none;
+  outline: none;
+  background: inherit;
+  cursor: pointer;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+}
+
+.add__img {
+  width: 50px;
+  transition: width 0.3s;
+}
+
+.add__img:hover {
+  width: 55px;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.modal-show {
+  display: flex;
+}
+
+.modal__content {
+  background: #fff;
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 3px;
+  border: 1px solid rgba(211, 211, 211, 0.5);
+  margin: 10px;
+}
+
+.close-img {
+  width: 15px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-bottom: 20px;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+.close-img:hover {
+  opacity: 0.7;
+}
+
+.modal__body {
+  width: 100%;
+  resize: none;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  height: 150px;
+  border: 1px solid rgba(211, 211, 211, 0.5);
+  outline: none;
+  border-radius: 3px;
+}
+
+.modal__footer {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  padding: 3px 10px;
+  cursor: pointer;
+  background: inherit;
+  border: 0 solid rgba(211, 211, 211, 0.5);
+  outline: none;
+  margin: 0 auto;
+  margin-top: 15px;
+  max-width: 200px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.2s;
+  /* border-radius: 3px; */
+}
+
+.modal__footer:hover {
+  opacity: 0.7;
+}

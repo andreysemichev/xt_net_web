@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #221e1f;
+  background: #f2f3f4;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sign-up {
+  background: #3c8fca;
+  border: 2px solid #2e75ad;
+  color: #f2f3f4;
+  width: 500px;
+}
+
+.sign-up__title, .sign-up__email, .sign-up__password, .sign-up__password-confirm, .sign-up__submit {
+  display: block;
+  margin: 15px;
+}
+
+.sign-up__title {
+  padding: 15px;
+  margin: 0;
+  border-bottom: 1px solid #f2f3f4;
+}
+
+.sign-up__input {
+  border: 1px solid #666a74;
+  outline: none;
+  background: #f2f3f4;
+  padding: 3px;
+  font-size: 16px;
+}
+
+.sign-up__email-input {
+  width: 400px;
+}
+
+.sign-up__password, .sign-up__password-confirm {
+  display: inline-block;
+}
+
+.sign-up__password-input {
+  width: 183px;
+}
+
+.sign-up__submit {
+  background: #fbdf8c;
+  color: #221e1f;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 26px;
+  padding: 0 10px;
+  line-height: 26px;
+  font-size: 16px;
+}
